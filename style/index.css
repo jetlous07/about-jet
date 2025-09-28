@@ -1,0 +1,26 @@
+
+  nav a {
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+  }
+
+  a i{
+    vertical-align: middle;
+    font-size: 20px;
+    line-height: 1;
+      }
+
+   html, body {
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+        margin: 0%;
+        }
+    .header div {
+        background-color: #0A66C2;
+        padding: 40px 20px;
+        text-align: center;
+    }
