@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #bcaaff;
+            margin: 0;
+            padding: 20px;}
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        form {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        label {
+            display: inline;
+            margin-bottom: 8px;
+            font-weight: bold;
+        }
+        input[type="text"], input[type="email"], select, textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        textarea {
+            height: 100px;
+            resize: vertical;
+        }
+        .big-input {
+            width: 50%;
+        }
+        button {
+            background-color: #28a745;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        button:hover {
+            background-color: #126b25;
+        }   
+    </style>
+</head>
+<body>
+    <h1>Survey Form</h1>
+    <form action="">
+        <div>
+            <label for="name">Name</label>
+            <br>
+            <input id="name" class="big-input" type="text" placeholder="Enter your name" required>
+        </div>
+        <div>
+            <label for="email">Email</label>
+            <br>
+            <input id="email" class="big-input" type="email" placeholder="Enter your email" required>
+        </div>
+        <div>
+            <label for="age">Age</label>
+            <br>
+            <input type="text" id="age" class="big-input" placeholder="Age" required>
+        </div>
+        <div>
+            <label for="select">Which option describes you the best?</label>
+            <br>
+            <select id="select" name=" " required>
+                <option value="">Student</option>
+                <option value="">Intern</option>
+                <option value="">Professional</option>
+                <option value="">Other</option>
+            </select>
+        </div>
+        <div>
+            <label for="radio">Do you like studying?</label>
+            <br>
+            <input type="radio" id="yes" name="study">
+            <label for="yes">Yes</label>
+            <br>
+            <input type="radio" id="no" name="study">
+            <label for="no">No</label>
+            <br>
+            <input type="radio" id="maybe" name="study">
+            <label for="maybe">Maybe</label>
+        </div>
+        <div>
+            <label for="checkbox">Languages known</label>
+            <br>
+            <input type="checkbox" id="c" name="lang">
+            <label for="c">C</label>
+            <br>
+            <input type="checkbox" id="c++" name="lang">
+            <label for="c++">C++</label>
+            <br>
+            <input type="checkbox" id="js" name="lang">
+            <label for="js">JavaScript</label>
+            <br>
+            <input type="checkbox" id="py" name="lang">
+            <label for="py">Python</label>
+            <br>
+            <input type="checkbox" id="html" name="lang">
+            <label for="html">HTML</label>
+        </div>
+        <div>
+            <label for="comments">Any comments or suggestions</label>
+            <br>
+            <textarea id="comments" name=""></textarea>
+        </div>
+        <div>
+            <button type="submit" id="submit">Submit here</button>
+        </div>
+
+    </form>
+    
+</body>
+</html>
