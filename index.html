@@ -1,136 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jetlee Loushambam</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
-    <link rel="stylesheet" href="style/index.css"/>
+  <meta charset="UTF-8" />
+  <title>Jet Archive</title>
+  <link rel="stylesheet" href="style/index.css" />
   
 </head>
 <body>
-    <header class="header">
-        <div>
-            <div style="display: inline-block; border: 4px solid #80b3ff; padding: 20px 40px; border-radius: 12px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); cursor: default; user-select: none; transition: transform 0.3s ease, box-shadow 0.3s ease; background-color: white;"
-                onmouseover="this.style.transform='scale(1.05)'; this.style.boxShadow='0 8px 16px rgba(0, 0, 0, 0.4)';"
-                onmouseout="this.style.transform='scale(1)';this.style.boxShadow='0 4px 8px rgba(0, 0, 0, 0.3)';" >
-                <h1 style="font-family: 'Montserrat', sans-serif; font-weight: 700; letter-spacing: 4px; font-size: 3rem; text-transform: uppercase; color: #0A66C2; margin: 0;">
-                    <u>Code. Create. Conquer.</u>
-                </h1>
+    <div class="container">
+        
+        <nav class="side-nav">
+            <div class="logo">
+                <img src="images/JAlogo.png" alt="Jet Archive" />
             </div>
+            <ul class="nav-links">
+                <li><a href="#home">HOME</a></li>
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="#projects">PROJECTS</a></li>
+                <li><a href="#contacts">CONTACTS</a></li>
+            </ul>
+        </nav>
+        <div class="main-content">
+            <div class="home" id="home">
+                <h1>Welcome to Jet Archive</h1>
+                <p>I'm Jet.</p>
+            </div><hr>
+            <div class="about" id="about">
+                <h2>About Me</h2>
+                <p>Hi, I'm Jet — a front-end enthusiast who enjoys crafting clean and interactive web experiences. I specialize in HTML, CSS, and a bit of JavaScript. My focus is on building responsive layouts, experimenting with animations, and learning through side projects. When I'm not coding, I enjoy playing games like Arena Breakout and Mobile Legend Bang Bang. My MLBB ID is 422702367. Add me up so we can play sometimes. This portfolio is my creative space — thanks for stopping by!</p>
+                <div class="gameImg">
+                    <img src="images/abimg.png" alt="Arena Breakout" />
+                    <img src="images/bene.png" alt="Benedetta" />
+                </div>
+            </div><hr>
+            <div class="projects" id="projects">
+                <h2>Projects</h2>
+                <p>This is the projects section.</p>
+            </div><hr>
+            <div class="contacts" id="contacts">
+                <h2>Contact</h2>
+                <p>This is the contact section.</p>
+            </div><hr>
+
         </div>
-
-        
-        <div style="background-color: #003366; margin: 0%; padding:20px; border:2px solid black; border-radius: 0px; text-align: center; margin: 0px;">
-            <nav style="display: flex; justify-content: center; gap: 40px; align-content: center;">
-                <a href="#Home"
-                    style="text-decoration: none; font-size: 20px; color: white; transition: transform 0.3s;"
-                    onmouseover="this.style.transform='scale(1.3)'"
-                    onmouseout="this.style.transform='scale(1)'">
-                    <i class="fas fa-home"
-                    style="vertical-align: middle; font-size: 20px; line-height: 1;"></i>
-                </a>
-
-                <a href="#About"
-                    style="text-decoration: none; font-size: 20px; color: white; transition: transform 0.3s;"
-                    onmouseover="this.style.transform='scale(1.3)'"
-                    onmouseout="this.style.transform='scale(1)'">
-                    <i class="fas fa-user"
-                    style="vertical-align: middle; font-size: 20px; line-height: 1;"></i>
-                </a>
-
-                 <a href="#Contact"
-                    style="text-decoration: none; font-size: 20px; color: white; transition: transform 0.3s;"
-                    onmouseover="this.style.transform='scale(1.3)'"
-                    onmouseout="this.style.transform='scale(1)'">
-                    <i class="fas fa-phone"
-                    style="vertical-align: middle; font-size: 20px; line-height: 1;"></i>
-                </a>
-            </nav>
-        </div>    
-    </header>
-
-    <main>
-        <div style="background-color: #fffdd0; margin: 0%;">
-        <figure style="border: 5px solid black; padding: 10px; background-color: rgba(255, 255, 255); margin: 20px auto; width: fit-content;">
-            <img src="images/ei.jpg" alt="Jetlee" width="175" style="margin: 20px auto;">
-            <figcaption style="text-align: center;"><u><b><strong>Jetlee Loushambam</strong></b></u></figcaption>  
-        </figure>
-        </div>
-
-        <div style="background-color:#038585; color:white; border: #00b8b8 solid 2px; margin: 0%; padding: 20px;">
-            <hr>
-            <section id="Home">
-                <h2><u><b><i class="fas fa-home" style="padding-inline-start: ;"></i>Home</b></u></h2>
-                <p>I'm <strong>Jetlee Loushambam</strong>.</p>
-                <p>Frontend Developer</p>
-            </section><hr>
-        </div>
-
-        <div style="background-color: #5a5d69; color:white; border:#A9B2C3 solid 2px; margin: 0%; padding: 20px;">
-        <section id="About">
-            <h2><u><b><i class="fas fa-user"></i>About Me</b></u></h2>
-            <p>I enjoy building, designing, and creating projects while solving challenges.</p>
-        </section>
-        </div><hr>
-
-        <div>
-            <h2>Projects</h2>
-            <ul>
-                <li><a href="major1.html" target="_blank">CollegiumX</a></li>
-                <li><a href="mini1.html" target="_blank">Mini Project 1</a></li>
-                <li><a href="mini2.html" target="_blank">Mini Project 2</a></li>
-                
-                
-        </div>
-
-        <div style="background-color:#222831; color:#66C7C7; border:#66C7C7 solid 2px; margin: 0%; padding: 20px;">
-            <section id="Contact">
-                <h2><b><u>Contact me at</u></b></h2>
-                <p>
-                    <a href="https://discord.com/users/885472467307626576" target="_blank" 
-                        style="color:#7289DA; font-size:40px; margin:0 10px; text-decoration:none; transition: transform 0.3s, color 0.3s;" 
-                        onmouseover="this.style.transform='scale(1.3)'; this.style.color='#9bb9f7';" 
-                        onmouseout="this.style.transform='scale(1)'; this.style.color='#7289DA';">
-                        <i class="fab fa-discord"></i>
-                    </a>
-
-                    <a href="https://github.com/jetlous07" target="_blank" 
-                        style="color:black; font-size:40px; margin:0 10px; text-decoration:none; transition: transform 0.3s, color 0.3s;" 
-                        onmouseover="this.style.transform='scale(1.3)'; this.style.color='#555555';" 
-                        onmouseout="this.style.transform='scale(1)'; this.style.color='black';">
-                        <i class="fab fa-github"></i>
-                    </a>
-
-                    <a href="https://wa.me/+917085802239" target="_blank" 
-                        style="color:#25D366; font-size:40px; margin:0 10px; text-decoration:none; transition: transform 0.3s, color 0.3s;" 
-                        onmouseover="this.style.transform='scale(1.3)'; this.style.color='#7be87b';" 
-                        onmouseout="this.style.transform='scale(1)'; this.style.color='#25D366';">
-                        <i class="fab fa-whatsapp"></i>
-                    </a>
-                </p>
-            </section>
-        </div>
-
-        
-        <footer style="background-color: #ecdaeb; padding: 5px; text-align: center;">
-            <a href="https://discord.com/users/885472467307626576" target="_blank" style="color:#7289DA; font-size:1px; margin:0px; text-decoration:none;">
-                <i class="fab fa-discord"></i>
-            </a>&emsp;
-            
-            <a href="https://github.com/jetlous07" target="_blank" style="color:black; font-size:10px; margin:0px; text-decoration:none;">
-                <i class="fab fa-github"></i>
-            </a>&emsp;
-            
-            <a href="https://wa.me/+917085802239" target="_blank" style="color:#25D366; font-size:10px; margin:0px; text-decoration:none;">
-                <i class="fab fa-whatsapp"></i>
-            </a>&emsp;
-            <p style="margin-top: 15px; font-size: 14px; color: #555;">
-             &copy; Jetlee Loushambam. All rights reserved.
-            </p>
-        </footer>
-
-    </main>
-    
+    </div>
 </body>
 </html>
