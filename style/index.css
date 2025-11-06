@@ -74,6 +74,10 @@ body {
 .latest {
     display: flex;
 }
+.latest a{
+    text-decoration: none;
+    color: white;
+}
 
 .pic {
     margin-left: 20px;
