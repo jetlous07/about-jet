@@ -42,66 +42,53 @@ body {
     background-color: white;
 }
 
-.content {
-    background-image: url("../images/bgbody.jpg");
-    background-position : center;
-    background-size: cover;
-    background-repeat: no-repeat;    
-    height: 1000px;
+.fash {
     display: flex;
     justify-content: center;
+    flex-direction: row;
+    margin: 20px;
     align-items: center;
+    list-style: none;
 }
-
-.smallcont {background-color: rgb(255, 255, 255, 0.55);
-    border-radius: 10px;
-    padding: 10px 20px;      
-    font-weight: bolder;
-    font-size: 16px;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-}
-
-.smallcont button{
-    font-size: medium;
-    border: none;
-    border-radius: 10px;
-    transition: 0.3s ease;
-}
-.smallcont button:hover{
-    background-color: #25D366;
-    color: white;
-    transform: scale(1,0.8);
-}
-
-.about{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+.fash a{
+    text-decoration: none;
+    color: black;
     text-align: center;
-    height: 200px;
-    width: 70%;
-    background-color: whitesmoke;
-    margin-left: 15%;
-    padding: 10px 20px;
+}
+
+.Fashion {
+    text-align: left;
+    margin-left: 20px;
     margin-top: 20px;
 }
-
-.why {
-    margin-top: 30px;
+ 
+.brand {
     display: flex;
-    flex-direction: column;
+    justify-content: center;
+    flex-direction: row;
+    margin: 20px;
+    align-items: center;
+    list-style: none;
+    
+}
+.FS1 h2{
+    font-weight: bold;
+    font-style: italic;
+    font-size: 24px;
+}
+
+.brand1 {
+    display: flex;
     justify-content: center;
     align-items: center;
-    text-align: center;
-    width: 80%;
-    background-color: beige;
-    margin-left: 10%;
-    padding: 20px 30px;
 }
+
+.brand2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .footer {
     margin-top: 30px;
     padding: 30px 40px;
