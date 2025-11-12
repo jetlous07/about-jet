@@ -6,8 +6,8 @@
 .navigation {
     display: flex;
     align-items: center;
+    justify-content: space-between; 
     flex-direction: row;
-    gap: 19%;
     padding: 10px 20px;
     background-color: beige;
 }
@@ -33,8 +33,11 @@
     background-color: #25D366;
     color: white;
 }
+
+
 .lastpart {
     display: flex;
+    align-items: center;
     gap: 20px;
 }
 

@@ -6,8 +6,8 @@
 .navigation {
     display: flex;
     align-items: center;
+    justify-content: space-between; 
     flex-direction: row;
-    gap: 19%;
     padding: 10px 20px;
     background-color: beige;
 }
@@ -18,8 +18,9 @@
 
 .midpart {
     display: flex;
-    gap: 20px;
+    gap: 20px; 
 }
+
 .midpart a{
     text-decoration: none;
     border: 1px solid black;
@@ -35,6 +36,7 @@
 }
 .lastpart {
     display: flex;
+    align-items: center;
     gap: 20px;
 }
 
