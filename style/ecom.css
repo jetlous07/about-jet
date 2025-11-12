@@ -87,9 +87,7 @@ body {
     justify-content: center;
     text-align: center;
     height: 200px;
-    width: 70%;
     background-color: whitesmoke;
-    margin-left: 15%;
     padding: 10px 20px;
     margin-top: 20px;
 }
@@ -101,10 +99,8 @@ body {
     justify-content: center;
     align-items: center;
     text-align: center;
-    width: 80%;
     background-color: beige;
-    margin-left: 10%;
-    padding: 20px 30px;
+    padding: 20px 50px;
 }
 .footer {
     margin-top: 30px;
